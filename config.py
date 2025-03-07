@@ -47,7 +47,7 @@ class Config(object):
  
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/e926415c6cac6a444a3c6-4d64be6680e2780501.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6076683960').split()]
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6076683960 6586630448').split()]
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002283909105"))
 
     # free upload limit 
